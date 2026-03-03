@@ -34,3 +34,6 @@ Notes
 2026-03-03 更新：已按温哥华本地中医针灸诊所风格重写双语文案，并新增 gallery.html（诊所环境）与 faq.html（常见问题）。assets/img/clinic-01~04.svg 为占位图片，可用真实照片替换同名文件。
 
 2026-03-03 更新：新增 about.html（中医与诊所理念），并精简首页区块（更干净不杂乱）。
+
+
+结构已扁平化：styles.css / main.js / clinic-0X.svg 已移动到根目录；HTML 引用已同步更新。
