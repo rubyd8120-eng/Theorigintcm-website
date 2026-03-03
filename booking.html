@@ -45,18 +45,22 @@
 <section class="section">
   <div class="container">
     <div class="panel padded">
-      <div class="kicker"><span class="dot"></span> <span data-i18n="privacyTitle"></span></div>
-      <h1 class="h1" style="font-size:42px;margin-top:10px" data-i18n="privacyTitle"></h1>
-      <p class="lead" data-i18n="privacyLead"></p>
+      <div class="kicker"><span class="dot"></span> <span data-i18n="bookingTitle"></span></div>
+      <h1 class="h1" style="font-size:42px;margin-top:10px" data-i18n="bookingTitle"></h1>
+      <p class="lead" data-i18n="bookingLead"></p>
+      <div class="hero-cta">
+        <a class="btn" href="https://calendly.com/your-booking-link" target="_blank" rel="noopener" data-i18n="bookingOpenTab">Open booking</a>
+      </div>
     </div>
     <div style="height:16px"></div>
-    <div class="card">
-      <h4 data-i18n="privH1">What we collect</h4>
-      <p class="mini" data-i18n="privP1"></p>
-      <h4 style="margin-top:16px" data-i18n="privH2">Third‑party services</h4>
-      <p class="mini" data-i18n="privP2"></p>
-      <div class="notice" style="margin-top:14px" data-i18n="privNote"></div>
+    <div class="embed">
+      <div class="notice" style="margin:16px">
+        <div class="small" data-i18n="bookingEmbedNote"></div>
+        <div class="small" style="margin-top:6px;word-break:break-all">https://calendly.com/your-booking-link</div>
+      </div>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/your-booking-link" style="min-width:320px;height:720px;"></div>
     </div>
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
   </div>
 </section>
 
